@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #101a23;
+}
+
+
+
+.nav{
+    display: flex;
+    max-height: 80px;
+    align-items: center;
+    background-color: #212830;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+}
+.nav_margin{
+    padding: 30px;
+    margin-right: 200px;
+}
+
+.nav_bar ul{
+    display: flex;
+    justify-content: space-between; 
+    list-style-type: none;
+    gap: 50px;
+    margin-left: 200px;
+}
+
+.bullet_point{
+    padding: 15px 20px;
+    color: rgb(227, 227, 227);
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 6px 6px 7px #192e43;
+    
+}
+.bullet_point:hover{
+    color: aqua;
+    background-color: #10151a;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #192e43, 0 0 10px #3c75ae;
+
+}
+.nav_logo{
+    color: rgb(248, 228, 203);
+    font-family: bradley hand, cursive;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+
+
+.mee{
+    min-height: 100vh; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.my_image{
+    width: 40vw;
+    margin: 20px 20px 20px 40px;
+    
+}
+.my_img_source{
+    height: 500px;
+
+}
+
+.my_content{
+    width: 60vw;
+    margin: 60px 20px 20px 20px;
+    color:seashell;
+}
+.my_details{
+    width: 80%;
+    border: 2px solid cyan;
+    box-shadow: 1px 1px 5px cyan, -1px -1px 5px cyan,-1px 1px 5px cyan, 1px -1px 5px cyan; 
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-top: 80px;
+    
+}
+.my_Occu_Details{
+    font-size: large;
+}
+.my_Name{
+    color: rgb(172, 246, 61);
+    
+}
+.my_link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    width: 80%;
+    margin-top: 60px;
+
+}
+.icon i{
+    font-size: 45px;
+    color:black;
+}
+.fb_icon:hover i{
+    color: #1255D8;
+    font-size: 50px;
+    text-shadow: 1px 1px 5px rgb(69, 69, 69);
+}
+.insta_icon:hover i{
+    color: #AC328F;
+    font-size: 50px;
+    text-shadow: 1px 1px 5px rgb(69, 69, 69);
+}
+.lknin_icon:hover i{
+    color: #0270AD;
+    font-size: 50px;
+    text-shadow: 1px 1px 5px rgb(69, 69, 69);
+}
+.x_icon:hover i{
+    font-size: 50px;
+    text-shadow: 1px 1px 5px rgb(69, 69, 69);
+}
+.github_icon:hover i{
+    font-size: 50px;
+    text-shadow: 1px 1px 5px rgb(69, 69, 69);
+}
+
+
+
+.page{
+    min-height: 100vh;
+
+}
+
+
+#about{
+    background-color: #1a252eaa;
+    padding-top: 80px;
+}
+
+.heading1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: white;
+}
+.about_img_source{
+    height: 400px;
+    border-radius: 50%;
+    background-color: #131b22aa;
+    box-shadow: 0 8px 20px rgb(16, 23, 23);
+}
+.about_content{
+    display: flex;
+    align-items: center;
+}
+.about_description{
+    width: 60vw;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+}
+.about_img{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#skills{
+    background-color: #101a23;
+    padding-top: 80px;
+}
+.heading2{
+    margin-bottom: 5px;
+}
+.my_skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* h3{
+    padding: 30px 0;
+} */
+.title{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #FFD700;
+}
+.skills{
+    border: 2px solid rgb(58, 79, 79); 
+    outline: 2px solid rgb(58, 79, 79); 
+    outline-offset: 1px;
+    color:#00D4AA;
+    padding: 28px;
+    display: grid;
+    place-items: center;
+    margin: 10px auto;
+}
+
+
+
+
+#contact{
+    background-color: #1a252eaa;
+    padding-top: 80px;
+}
+.heading3{
+    margin-bottom: 20px;
+}
+.contact_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.contact_info{
+    width: 50%;
+    /* border: 2px solid red; */
+    padding: 40px 40px 40px 70px;
+    color: white;
+}
+.contact_title{
+    color: #00D4AA;
+    font-size: 30px;
+}
+i{
+    color: #00D4AA;
+    font-size: 17px;
+}
+.contact_item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2px;
+}
+.contact_form{
+    width: 50%;
+    margin-right: 30px;
+
+    border: 1px solid silver; 
+    padding: 50px 50px 30px 50px;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    box-shadow: 0 0 5px silver;
+}
+.contact_form:hover{
+    box-shadow: 0 0 8px silver;
+}
+
+.contact_form input[type="text"], .contact_form input[type="email"], .contact_form input[type="password"], .contact_form textarea{
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #00D4AA;
+    outline: 2px solid #00D4AA;
+    outline-offset: 2px;
+    /* box-shadow: 0px 0px 5px #00D4AA; */
+}
+.contact_form input::placeholder,
+.contact_form textarea::placeholder{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact_form input:hover,
+.contact_form textarea:hover{
+    outline: none;
+    box-shadow: 0px 0px 7px #00D4AA;
+    background-color: #1a222a;
+    color: white;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form_btn{
+    width: 40%;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #00D4AA;
+    cursor: pointer;
+}
+.contact_form input[type="submit"]{
+    background-color: #00D4AA;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    color:black;
+}
+.form_btn:hover{
+    box-shadow: 0px 0px 7px #00D4AA;
+}
+
+
+
+.footer {
+ margin-top: 20px;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: #101a23;
+  display: flex;
+  justify-content: space-around;
+}
